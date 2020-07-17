@@ -1,14 +1,13 @@
-import * as React from 'react';
+import React, { Component } from 'react';
 
-import WorkoutCard from '../components/WorkoutCard';
+import WorkoutOverview from '../components/WorkoutOverview';
 
-class Dashboard extends React.Component {
+class Dashboard extends Component {
+
     render() {
         return (
-            <div className=" bg-gray-100">
-                <div className="h-screen ml-10 mr-10 bg-blue-700">
-                    <div className="w-1/6 "><WorkoutCard/></div>
-                </div>
+            <div className="h-screen mx-32 my-8 rounded-lg shadow-xl bg-blue-200">
+                <WorkoutOverview />
             </div>
         );
     }
