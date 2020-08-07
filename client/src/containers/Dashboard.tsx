@@ -6,7 +6,7 @@ class Dashboard extends Component {
 
     render() {
         return (
-            <div className="h-screen mx-32 my-8 rounded-lg shadow-xl bg-blue-200">
+            <div className="h-screen lg:mx-32 md:mx-10 my-8 rounded-lg shadow-xl bg-blue-200">
                 <WorkoutOverview />
             </div>
         );
